@@ -4,8 +4,8 @@ import { AppDataSource } from './db/data-source';
 import { validateEnv } from './utils/env-validator';
 import routes from './routes';
 import { errorHandler, notFoundHandler } from './middleware/error.middleware';
-// import { setupSecurity } from './middleware/security.middleware';
-// import { MongoClient } from 'mongodb';
+import { setupSecurity } from './middleware/security.middleware';
+import { MongoClient } from 'mongodb';
 
 dotenv.config();
 validateEnv();
