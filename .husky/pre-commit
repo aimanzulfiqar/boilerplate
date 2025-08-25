@@ -2,3 +2,6 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npx lint-staged
+
+# Type-check all files before commit
+npx tsc --noEmit
