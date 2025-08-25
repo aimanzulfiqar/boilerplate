@@ -1,4 +1,4 @@
-// import { MongoClient, Db } from 'mongodb';
+import { MongoClient, Db } from 'mongodb';
 
 class MongoSingleton {
   private static instance: MongoSingleton;
