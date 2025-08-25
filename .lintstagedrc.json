@@ -1,7 +1,7 @@
 {
   "src/**/*.{ts,js,json}": [
     "eslint --fix",
-    "prettier --write"
-  ],
-  "*.{ts,tsx}": "tsc --noEmit"
+    "prettier --write",
+    "tsc --noEmit"
+  ]
 }
